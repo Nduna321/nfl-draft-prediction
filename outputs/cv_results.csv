@@ -1,0 +1,19 @@
+scenario,model,mean,std
+A. As provided,Blend (equal weights),0.8415,0.0213
+A. As provided,CatBoost,0.8396,0.0218
+A. As provided,LightGBM,0.8384,0.0214
+A. As provided,Logistic Regression,0.8384,0.0198
+A. As provided,Random Forest,0.8355,0.0212
+A. As provided,XGBoost,0.8383,0.0213
+"B. Age, no missing flag",Blend (equal weights),0.762,0.0289
+"B. Age, no missing flag",CatBoost,0.7672,0.0271
+"B. Age, no missing flag",LightGBM,0.7605,0.0261
+"B. Age, no missing flag",Logistic Regression,0.7304,0.0309
+"B. Age, no missing flag",Random Forest,0.748,0.032
+"B. Age, no missing flag",XGBoost,0.7609,0.0264
+C. No age,Blend (equal weights),0.7318,0.0328
+C. No age,CatBoost,0.7323,0.0313
+C. No age,LightGBM,0.7276,0.0322
+C. No age,Logistic Regression,0.7244,0.0314
+C. No age,Random Forest,0.7221,0.0352
+C. No age,XGBoost,0.7276,0.0323
